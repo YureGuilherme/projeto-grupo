@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 3px solid #007bff;
+}
+
+header .logo {
+  font-weight: bold;
+  color: #007bff;
+  font-size: 22px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to right, #fff, #ffe8b3);
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 12px 20px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero img {
+  max-width: 350px;
+}
+
+/* PRODUTOS */
+.produtos {
+  padding: 40px;
+}
+
+.produtos h2 {
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  background: orange;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* INFO */
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.icons-cat img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-top: 2px solid #ddd;
+}
