@@ -119,4 +119,8 @@ footer {
   padding: 20px;
   background: white;
   border-top: 2px solid #ddd;
-}'
+}
+
+.icons {
+  font-size: 30px; /* ajuste como quiser */
+}
